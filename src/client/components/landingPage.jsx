@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {Link} from 'react-router'
 import '../css/grid';
 import '../css/landingPage';
 
-export default class extends React.Component {
+export default class extends Component {
 	constructor() {
 		super();
 		var placeholder = require('../static/img/placeholder.jpg');
@@ -12,8 +12,8 @@ export default class extends React.Component {
 			content: [
 			{
 				id: 'travel',
-				title: 'For User A',
-				steps: [ 
+				title: 'Content Area A',
+				steps: [
 					{
 						img: placeholder,
 						title: 'Lorem ipsum dolor sit',
@@ -33,7 +33,7 @@ export default class extends React.Component {
 			},
 			{
 				id: 'manager',
-				title: 'For User B',
+				title: 'Content Area B',
 				steps: [
 					{
 						img: placeholder,
@@ -51,10 +51,10 @@ export default class extends React.Component {
 						description: 'Nunc ut bibendum eu sed volutpat vestibulum'
 					}
 				]
-			},		
+			},
 			{
 				id: 'host',
-				title: 'For User C',
+				title: 'Content Area C',
 				steps: [
 					{
 						img: placeholder,
@@ -118,7 +118,6 @@ export default class extends React.Component {
 				)
 			)
 		}
-
 		return (
 			sectionDivs
 		)
@@ -129,13 +128,13 @@ export default class extends React.Component {
 			<div className="landing-page grid">
 				<div className="main-title-container">
 					<div className="grid-row-item-row title-row">
-						<div className="grid-item title">Main mantra of you company goes here</div>
-						<div className="grid-item slogan">Why you are so good, bla-bla-bla, and why you will change the world</div>
+						<div className="grid-item title">SimplyBook TITLE</div>
+						<div className="grid-item slogan">Our description</div>
 					</div>
 					<div className="grid-row-item-col button-row">
-						<a id="#travel" onClick={this.animateAndScroll} className="btn btn-primary btn-space-col btn-large-size">For User A</a>
-						<a id="#manager" onClick={this.animateAndScroll} className="btn btn-primary btn-large-size btn-space-col">For User B</a>
-						<a id="#host" onClick={this.animateAndScroll} className="btn btn-primary btn-large-size btn-space-col">For User C</a>
+						<a id="#travel" onClick={this.animateAndScroll} className="btn btn-primary btn-space-col btn-large-size">Content Area A</a>
+						<a id="#manager" onClick={this.animateAndScroll} className="btn btn-primary btn-large-size btn-space-col">Content Area B</a>
+						<a id="#host" onClick={this.animateAndScroll} className="btn btn-primary btn-large-size btn-space-col">Content Area C</a>
 					</div>
 				</div>
 				{this.renderHelpSections()}
@@ -145,7 +144,7 @@ export default class extends React.Component {
 					<div className="grid-item"><Link to="/terms">Terms and Privacy</Link></div>
 				</div>
 				<div className="grid-row-item-row footer">
-					<div className="grid-item">Copyright @yourcompany {new Date().getFullYear()}</div>
+					<div className="grid-item">Copyright @SimplyBook {new Date().getFullYear()}</div>
 				</div>
 			</div>
 		)

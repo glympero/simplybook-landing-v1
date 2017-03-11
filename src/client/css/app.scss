@@ -78,7 +78,7 @@ hr {
 .single-separator {
 	position: relative;
 	width: 100%;
-	text-align: center;	
+	text-align: center;
 }
 
 .btn {
@@ -107,13 +107,13 @@ hr {
 
 .btn-primary {
 	color: #ffffff;
-	background-color: $material-color-cyan-400;
+	background-color: $color-header-blue-400;
 	border-color: transparent;
 }
 
 .btn-primary-red {
 	@extend .btn-primary;
-	background-color: $color-canyon-red;	
+	background-color: $color-canyon-red;
 }
 
 .btn-primary-grey {
@@ -137,20 +137,23 @@ hr {
 .btn-extra-large-size {
 	width: 200px;
 }
-
 /* =14px */
 .main {
 	display: flex;
 	flex-direction: column;
+
 }
 .header {
+	background-color: $color-header-blue !important;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	background-color: $material-color-cyan-700;
+	// position: fixed;
+	width:100%;
+
 	border-color: #004D40;
-	height: 3rem;
+	height: 4rem;
 	.headerItem {
 		&.logo {
 			flex-grow: 2;
@@ -168,7 +171,7 @@ hr {
 			.navItem {
 				margin: 0.5rem;
 				a {
-					cursor: pointer; 
+					cursor: pointer;
 					cursor: hand;
 					color: rgba(247, 247, 247, 0.8);
 					&.selected {
@@ -195,6 +198,10 @@ hr {
 		}
 	}
 }
+// .fixed-top {
+// 	background-color: $color-header-blue !important;
+// 	height: 80px;
+// }
 .mainView {
 	margin-left: 5rem;
 	margin-right: 5rem;

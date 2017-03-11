@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import App from './app';
 import About from './about';
 import Terms from './terms';
@@ -8,7 +8,7 @@ import {Router, Route, IndexRoute} from 'react-router';
 import createBrowserHistory from 'history/lib/createBrowserHistory';
 const history = createBrowserHistory();
 
-export default class Routes extends React.Component {
+export default class Routes extends Component {
   constructor() {
     super();
   }

@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import LandingPage from './landingPage';
 
-export default class Home extends React.Component {
+export default class Home extends Component {
 	constructor() {
 		super();
 	}

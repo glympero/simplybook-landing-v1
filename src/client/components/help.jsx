@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default class Help extends React.Component {
+export default class Help extends Component {
   constructor() {
     super();
   }
@@ -17,6 +17,6 @@ Ut pri dicam definitiones. Pro te fugit senserit, ex consetetur reformidans refe
           </div>
         </div>
       </div>
-    ) 
+    )
   }
 }

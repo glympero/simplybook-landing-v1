@@ -1,12 +1,12 @@
 @import 'variables';
 .landing-page {
 	.main-title-container {
-		padding: 10rem 0;
-		background-color: #18bc9c;
-		color: white;
-		background-image: url(../static/img/background_image.jpg);
+		background-image: url(../static/img/background_image-sb-4.jpg);
 		background-position: center;
 		background-size: cover;
+		padding: 15rem 0;
+		background-color: #18bc9c;
+		color: white;
 	}
 	.title-row {
 		align-items: center;
@@ -53,7 +53,7 @@
 
 		&.odd {
 			color: white;
-			background-color: $material-color-cyan-600;
+			background-color: $color-header-blue-600;
 
 			.subtitle {
 				font-size: $extra-large-font;
@@ -73,7 +73,7 @@
 	.subfooter {
 		font-family: $josefin-sans;
 		margin:0;
-		background-color: $material-color-cyan-700; 
+		background-color: $color-header-blue-700;
 		color: white;
 		justify-content: center;
 		align-items: stretch;

@@ -12,7 +12,6 @@ export default class App extends React.Component {
 	// Defines the main application
 	constructor() {
 		super();
-
 	}
 
 	/*
@@ -32,8 +31,8 @@ export default class App extends React.Component {
 		var mainViewCss = ''; // this can be mainView
 		return (
 			<div className="main">
-				<Header 
-					showLoginModal={this.showLoginModal} 
+				<Header
+					showLoginModal={this.showLoginModal}
 					/>
 				<div className={mainViewCss}>
 					{this.props.children}
