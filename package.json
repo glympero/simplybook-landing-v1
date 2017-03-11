@@ -1,10 +1,10 @@
 {
-  "name": "react-landing-pages",
+  "name": "simplybook-landing-page",
   "version": "0.0.1",
-  "description": "A collection of landing pages for react.js",
+  "description": "SimplyBook - Landing Page",
   "main": "./src/entry.js",
-  "homepage": "http://github.com/davidlygagnon/react-landing-pages",
-  "author": "David Ly-Gagnon",
+  "homepage": "https://github.com/glympero/simplybook-landing-v1",
+  "author": "Simplybook",
   "license": "MIT",
   "scripts": {
     "dev": "webpack --config ./webpack.config.js --progress --colors && node ./src/server/server.js",

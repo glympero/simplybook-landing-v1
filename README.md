@@ -1,12 +1,12 @@
 # simplybook-landing-page
 
-# Installation
+## Installation
 1. Once you have cloned the repo, run npm install. This will install the node modules needed to run the applicaiton.
 
-# How to run the app locally
+## How to run the app locally
 npm run dev
 
-# How to deploy on heroku
+## How to deploy on heroku
 
 I have a postInstall script in package.json that will build the app with webpack.
 Webpack and other npm modules to build the app are in devDependencies.
